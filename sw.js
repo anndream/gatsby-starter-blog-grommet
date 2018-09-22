@@ -11,8 +11,8 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("workbox-v3.5.0/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "workbox-v3.5.0"});
+importScripts("workbox-v3.6.1/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "workbox-v3.6.1"});
 
 workbox.core.setCacheNameDetails({prefix: "gatsby-plugin-offline"});
 
@@ -26,34 +26,34 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-bd25ea29153f4b47349e.js"
+    "url": "webpack-runtime-f393ac769f2be31fe29c.js"
   },
   {
-    "url": "app-cc082bf3d93396488373.js"
+    "url": "app-8225be6e6aca4f07302a.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-c9c937b9491619a6493b.js"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-455509d6e452f18a60d1.js"
   },
   {
     "url": "index.html",
-    "revision": "83347c9f0edcbb589aaeb2ea1da57a62"
+    "revision": "8f7ea411c90d4dbd8d9cd0c4a429495d"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "f7d1d02efcd83c6c525e565352e88d3c"
+    "revision": "47dbaa8e6a40b50b9d50de09d84795ec"
   },
   {
-    "url": "0-25ed5597e2ce5f182b5c.js"
+    "url": "0-deab9c783b4722060267.js"
   },
   {
-    "url": "component---src-pages-index-js-283913bbb146078b13ea.js"
+    "url": "component---src-pages-index-js-1927b2946f38ceb199f4.js"
   },
   {
     "url": "static/d/609/path---index-6a9-XSLWSBhAQp5iWZpfM1XSyw784o.json",
     "revision": "8737912ad24e802e600433a3bdc9a484"
   },
   {
-    "url": "component---src-pages-404-js-abe621e2f52f7cdf9f65.js"
+    "url": "component---src-pages-404-js-a53cd175da9a5d367574.js"
   },
   {
     "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json",
